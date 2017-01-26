@@ -1,0 +1,32 @@
+{
+  "name": "es2015-forum-app",
+  "version": "1.0.0",
+  "description": "an app to try out some es2015 features - following codeschool video",
+  "main": "js/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miltonbecker/es2015-forum-app.git"
+  },
+  "author": "Milton Becker Junior",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miltonbecker/es2015-forum-app/issues"
+  },
+  "homepage": "https://github.com/miltonbecker/es2015-forum-app#readme",
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-latest": "^6.16.0",
+    "babelify": "^7.3.0",
+    "browserify": "^13.1.1",
+    "gulp": "^3.9.1",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "dependencies": {
+    "json-server": "^0.9.4",
+    "xss-filters": "^1.2.7"
+  }
+}
