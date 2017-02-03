@@ -1,5 +1,6 @@
 {
-    "posts": [{
+    "posts": [
+        {
             "id": 1,
             "title": "In hybrid moments, give me a moment",
             "lastReply": "1997-07-15"
@@ -15,7 +16,8 @@
             "lastReply": "1983-04-19"
         }
     ],
-    "activeUsers": [{
+    "activeUsers": [
+        {
             "name": "Sam",
             "avatar": "avatar.jpg"
         },

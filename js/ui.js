@@ -24,7 +24,7 @@ let ui = {
 };
 
 function articleTemplate(title, lastReply) {
-    let [safeTitle, safeLastReply] = sanitize(title, lastReply);
+    let [ safeTitle, safeLastReply ] = sanitize(title, lastReply);
     return `
         <article class='post'>
             <h2 class='post-title'>
@@ -37,7 +37,7 @@ function articleTemplate(title, lastReply) {
 }
 
 function userTemplate(name, avatar) {
-    let [safeName, safeAvatar] = sanitize(name, avatar);
+    let [ safeName, safeAvatar ] = sanitize(name, avatar);
     return `
     <div class='active-avatar'>
         <img width='54' src='../assets/images/${safeAvatar}'/>
